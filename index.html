@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Camera and Microphone Access</title>
+</head>
+<body>
+    <h1>Camera and Microphone Access</h1>
+    <form action="/camera_microphone" method="POST">
+        <label for="allow_access">Allow camera and microphone access?</label>
+        <input type="submit" name="allow_access" value="Allow">
+        <input type="submit" name="allow_access" value="Deny">
+    </form>
+    <form action="/stop_camera_microphone" method="POST">
+        <label for="stop_access">Stop camera and microphone access?</label>
+        <input type="submit" name="stop_access" value="Yes">
+        <input type="submit" name="stop_access" value="No">
+    </form>
+</body>
+</html>
